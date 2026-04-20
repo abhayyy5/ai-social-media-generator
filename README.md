@@ -1,2 +1,30 @@
-# ai-social-media-generator
-This project focuses on developing an AI-based system that generates social media content automatically. The system takes user input such as topic, platform, and tone, and generates a relevant post using a generative AI model. The aim is to reduce the time and effort required in content creation.
+# AI Social Media Content Generator
+
+## 📌 Description
+This project is an AI-based social media content generator that creates posts automatically using a generative AI model.
+
+## 🚀 Features
+- Generate posts based on topic
+- Platform selection (Instagram, LinkedIn, Twitter)
+- Tone selection (Motivational, Funny, Professional)
+- Automatic hashtag generation
+
+## 🛠️ Technologies Used
+- Python
+- Streamlit
+- Transformers (GPT-2)
+
+## ▶️ How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run app:
+   streamlit run app.py
+
+## 📊 Output
+Generates social media captions with hashtags.
+
+## 🔮 Future Scope
+- Better AI models
+- Image generation
+- Auto posting
