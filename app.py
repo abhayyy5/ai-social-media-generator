@@ -12,6 +12,6 @@ tone = st.selectbox("Tone", ["Motivational", "Funny", "Professional"])
 if st.button("Generate Post"):
     prompt = f"Write a {tone} social media post for {platform} about {topic}. Include hashtags."
 
-    result = generator(prompt, max_length=100, num_return_sequences=1)
+    result = generator(prompt, max_length=120, num_return_sequences=1, temperature=0.9)
 
     st.write(result[0]['generated_text'])
